@@ -1,0 +1,47 @@
+.scoreBox{
+    max-width: 1200px;
+    margin: 40px auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.score{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.score h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.score p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.btnBox{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+.btnBox p{
+    text-align: end;
+    font-size: 20px;
+    font-weight: 600;
+}
+.boxColor{
+    background-color: black;
+    color: white;
+}
+.error{
+    color: red;
+}

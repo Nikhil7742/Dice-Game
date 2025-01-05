@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:  Courier, monospace;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.container{
+  max-width: 1200px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
